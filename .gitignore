@@ -1,0 +1,27 @@
+# Obsidian: commit only the two files that make the vault look the same everywhere
+.obsidian/*
+!.obsidian/appearance.json
+!.obsidian/core-plugins.json
+.trash/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*~
+
+# Local tool state
+.claude/settings.local.json
+desktop.ini
+
+# Secrets: never in the vault
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.cer
+credentials*.json
+token*.json
+secrets/
